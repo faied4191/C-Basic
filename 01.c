@@ -26,3 +26,6 @@ int main() {
     
     printf("Name: %s\n", name);
     printf("ID: %s\n", id);
+
+    return 0;
+}
