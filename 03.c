@@ -10,3 +10,5 @@ int main() {
 
     printf("Enter Second Number: ");
     scanf("%f", &b);
+
+    sum = a + b;
