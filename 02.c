@@ -15,3 +15,6 @@ int main() {
     if (length > 0 && name[length - 1] == '\n') {
         name[length - 1] = '\0';
     }
+
+    printf("Enter Your ID: ");
+    fgets(id, MAX_LENGTH, stdin);
