@@ -7,3 +7,6 @@ int main() {
 
     printf("Enter First Number: ");
     scanf("%f", &a);
+
+    printf("Enter Second Number: ");
+    scanf("%f", &b);
