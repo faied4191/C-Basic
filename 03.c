@@ -12,3 +12,8 @@ int main() {
     scanf("%f", &b);
 
     sum = a + b;
+
+    printf("The Sum is: %.2f\n", sum);
+
+    return 0;
+}
