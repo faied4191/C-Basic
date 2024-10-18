@@ -9,3 +9,9 @@ int main() {
 
     printf("Enter Your Name: ");
     fgets(name, MAX_LENGTH, stdin);
+
+    // Remove newline character if present
+    size_t length = strlen(name);
+    if (length > 0 && name[length - 1] == '\n') {
+        name[length - 1] = '\0';
+    }
