@@ -24,3 +24,10 @@ int main() {
     if (length > 0 && id[length - 1] == '\n') {
         id[length - 1] = '\0';
     }
+
+    printf("Name: %s\n", name);
+    printf("ID: %s\n", id);
+    printf("Length of Name= %zu\n", strlen(name));
+    
+    return 0;
+}
