@@ -17,3 +17,12 @@ int main() {
 
     printf("Enter Your ID: ");
     fgets(id, MAX_LENGTH, stdin);
+
+    // Remove newline character if present
+    length = strlen(id);
+    if (length > 0 && id[length - 1] == '\n') {
+        id[length - 1] = '\0';
+    }
+    
+    printf("Name: %s\n", name);
+    printf("ID: %s\n", id);
