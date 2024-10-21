@@ -22,3 +22,8 @@ int main() {
     } else {
         greatest = c;
     }
+
+    printf("The Greatest is: %d\n", greatest);
+
+    return 0;
+}
