@@ -5,3 +5,14 @@ int main() {
 
     printf("Enter Hour of the Day: ");
     scanf("%d", &a);
+
+    if (a < 10) {
+        printf("Good morning");
+    } else if (a < 20) {
+        printf("Good day");
+    } else {
+        printf("Good evening");
+    }
+
+    return 0;
+}
