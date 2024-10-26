@@ -13,3 +13,10 @@ int main() {
 
     printf("Enter the second number: ");
     scanf("%f", &b);
+
+    float sum = isSum(a, b);
+
+    printf("The sum is: %.2f\n", sum);
+
+    return 0;
+}
