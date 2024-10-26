@@ -15,3 +15,12 @@ int main() {
     if (length > 0 && a[length - 1] == '\n') {
         a[length - 1] = '\0';
     }
+
+    // Calculate the length of the string
+    count = strlen(a);
+
+    printf("Name: %s\n", a);
+    printf("Length: %d\n", count);
+
+    return 0;
+}
