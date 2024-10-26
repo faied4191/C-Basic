@@ -6,3 +6,6 @@
 int main() {
     char a[MAX_LENGTH];
     int count = 0;
+
+    printf("Enter Your Name: ");
+    fgets(a, MAX_LENGTH, stdin);
