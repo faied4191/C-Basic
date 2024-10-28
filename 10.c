@@ -13,3 +13,7 @@ float isMax(float x, float y) {
     }
     return large;
 }
+
+int main() {
+    float a;
+    float b;
