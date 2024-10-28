@@ -23,3 +23,12 @@ int main() {
 
     printf("Enter the second number: ");
     scanf("%f", &b);
+
+    float sum = isSum(a, b);
+    float max = isMax(a, b);
+
+    printf("The sum is: %.2f\n", sum);
+    printf("The maximum number is: %.2f\n", max);
+
+    return 0;
+}
