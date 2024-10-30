@@ -31,3 +31,16 @@ int main() {
         scanf("%s", arr1[i]);
     }
 
+    printf("\nElements and values:\n");
+    for (int i = 0; i < a; i++) {
+        printf("arr1[%d] = %s\n", i, arr1[i]);
+    }
+
+    // Free allocated memory
+    for (int i = 0; i < a; i++) {
+        free(arr1[i]);
+    }
+    free(arr1);
+
+    return 0;
+}
