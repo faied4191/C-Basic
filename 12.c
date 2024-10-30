@@ -14,3 +14,12 @@ int main() {
         printf("Memory allocation failed\n");
         return 1;
     }
+
+    // Allocate memory for each string and read input
+    for (int i = 0; i < a; i++) {
+        arr1[i] = (char *)malloc(100 * sizeof(char)); // Allocate memory for each string
+        if (arr1[i] == NULL) {
+            printf("Memory allocation failed\n");
+            return 1;
+        }
+
