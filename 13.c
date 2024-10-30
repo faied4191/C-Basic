@@ -30,3 +30,4 @@ int main() {
         printf("Enter element names %d: ", i + 1);
         scanf("%s", arr1[i]);
     }
+
