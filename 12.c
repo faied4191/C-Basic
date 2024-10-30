@@ -4,3 +4,6 @@
 
 int main() {
     int a;
+
+    printf("Enter the number of elements: ");
+    scanf("%d", &a);
