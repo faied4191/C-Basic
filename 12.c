@@ -23,3 +23,6 @@ int main() {
             return 1;
         }
 
+        printf("Enter element names %d: ", i + 1);
+        scanf("%s", arr1[i]);
+    }
