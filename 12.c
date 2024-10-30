@@ -26,3 +26,21 @@ int main() {
         printf("Enter element names %d: ", i + 1);
         scanf("%s", arr1[i]);
     }
+
+    // Print first element
+    printf("First Element Name: %s\n", arr1[0]);
+
+    // Print size of first element (length of the string)
+    printf("First Element Size: %lu\n", strlen(arr1[0]));
+
+    // Print array size
+    printf("Array Size: %d\n", a);
+
+    // Free allocated memory
+    for (int i = 0; i < a; i++) {
+        free(arr1[i]);
+    }
+    free(arr1);
+
+    return 0;
+}
